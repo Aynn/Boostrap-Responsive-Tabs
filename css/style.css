@@ -1,0 +1,39 @@
+.tab-content
+{
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.row, .alert.alert-info
+{
+   max-width: 600px;
+   margin: 40px auto;
+}
+
+/* ignore below */
+.ignore {
+  border-bottom: 1px solid #ddd;
+}
+.ignore > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.ignore > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+.ignore > li > a:hover {
+  border-color: #eeeeee #eeeeee #ddd;
+}
+.ignore > li.active > a,
+.ignore > li.active > a:hover,
+.ignore > li.active > a:focus {
+  color: #555555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
